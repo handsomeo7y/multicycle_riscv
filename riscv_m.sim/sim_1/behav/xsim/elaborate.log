@@ -1,0 +1,33 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f510bb4d11794924b776bfd925570e64 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_riscv_m_behav xil_defaultlib.tb_riscv_m xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ReadData' [D:/eda/riscv/multicycle_processor/riscv_m/riscv_m.srcs/sources_1/new/riscv_m_top.v:36]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'd1' [D:/eda/riscv/multicycle_processor/riscv_m/riscv_m.srcs/sources_1/new/datapath.v:129]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ALUResult' [D:/eda/riscv/multicycle_processor/riscv_m/riscv_m.srcs/sources_1/new/datapath.v:139]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'rd' [D:/eda/riscv/multicycle_processor/riscv_m/riscv_m.srcs/sources_1/new/riscv_m_top.v:43]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.flopren(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.mux3(WITHD=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mainfsm
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.instrdec
+Compiling module xil_defaultlib.lsu
+Compiling module xil_defaultlib.bu
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.riscv_multicycle
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.riscv_m_top
+Compiling module xil_defaultlib.tb_riscv_m
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_riscv_m_behav

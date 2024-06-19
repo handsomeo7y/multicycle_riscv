@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../riscv_m.srcs/sources_1/new/alu.v" \
+"../../../../riscv_m.srcs/sources_1/new/aludec.v" \
+"../../../../riscv_m.srcs/sources_1/new/bu.v" \
+"../../../../riscv_m.srcs/sources_1/new/controller.v" \
+"../../../../riscv_m.srcs/sources_1/new/datapath.v" \
+"../../../../riscv_m.srcs/sources_1/new/extend.v" \
+"../../../../riscv_m.srcs/sources_1/new/flopr.v" \
+"../../../../riscv_m.srcs/sources_1/new/flopren.v" \
+"../../../../riscv_m.srcs/sources_1/new/instrdec.v" \
+"../../../../riscv_m.srcs/sources_1/new/lsu.v" \
+"../../../../riscv_m.srcs/sources_1/new/mainfsm.v" \
+"../../../../riscv_m.srcs/sources_1/new/mem.v" \
+"../../../../riscv_m.srcs/sources_1/new/mux3.v" \
+"../../../../riscv_m.srcs/sources_1/new/regfile.v" \
+"../../../../riscv_m.srcs/sources_1/new/riscv_m_top.v" \
+"../../../../riscv_m.srcs/sources_1/new/riscv_multicycle.v" \
+"../../../../riscv_m.srcs/sim_1/new/tb_riscv_m.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
